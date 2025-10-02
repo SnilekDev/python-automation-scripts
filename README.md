@@ -1,111 +1,71 @@
-# 🐍 Python Automation Scripts
+🐍 Python Automation Scripts
 
-Colección de scripts útiles para automatizar tareas cotidianas en tu computadora.  
-Cada script está organizado en su propia carpeta con código listo para ejecutar.
+Colección de scripts útiles para automatizar tareas cotidianas en tu computadora.
+Cada script está organizado en su propia carpeta dentro de scripts/, con el código listo para ejecutar.
 
----
-
-## 📂 Estructura del repositorio
-
-```
+📂 Estructura del repositorio
 python-automation-scripts/
 │
-├── renombrador/              # Renombrar múltiples archivos automáticamente
-│   └── renombrador.py
+├── scripts/
+│   ├── renombrador/
+│   │   └── renombrador.py
+│   ├── elimina_duplicados/
+│   │   └── elimina_duplicados.py
+│   ├── analiza_genera_csv/
+│   │   └── analiza_genera_csv.py
+│   ├── copia_incremental/
+│   │   └── copia_incremental.py
+│   ├── elimina_parrafos_iguales/
+│   │   └── elimina_parrafos_iguales.py
+│   └── genera_markdown/
+│       └── genera_markdown.py
 │
-├── elimina_duplicados/       # Detectar y eliminar archivos duplicados
-│   └── elimina_duplicados.py
-│
-├── crea_csv/                 # Generar archivos CSV a partir de datos
-│   └── crea_csv.py
-│
-├── genera_toc/               # Crear tabla de contenido (TOC) desde documentos
-│   └── genera_toc.py
-│
-├── json_to_csv/              # Convertir JSON a CSV
-│   └── json_to_csv.py
-│
-├── otro_script/              # (Ejemplo de nueva automatización futura)
-│   └── otro_script.py
-│
-└── README.md                 # Este archivo
-```
+└── README.md
 
----
+🚀 Scripts incluidos
 
-## ▶️ Cómo clonar y ejecutar
+renombrador → Renombra múltiples archivos automáticamente en una carpeta.
+
+elimina_duplicados → Elimina archivos duplicados basándose en tamaño y hash.
+
+analiza_genera_csv → Procesa datos y genera archivos CSV.
+
+copia_incremental → Realiza copias de seguridad incrementales de archivos.
+
+elimina_parrafos_iguales → Detecta y elimina párrafos duplicados en un texto.
+
+genera_markdown → Genera archivos Markdown con índice de contenidos automático.
+
+▶️ Cómo clonar y ejecutar
 
 Clona este repositorio en tu equipo:
 
-```bash
 git clone https://github.com/tu-usuario/python-automation-scripts.git
-cd python-automation-scripts
-```
+cd python-automation-scripts/scripts
 
-Cada script está en su propia carpeta. Para ejecutarlo:
 
-```bash
+Para ejecutar un script específico:
+
 cd nombre_del_script
 python nombre_del_script.py
-```
+
 
 Ejemplo, para ejecutar el script de renombrado:
 
-```bash
 cd renombrador
 python renombrador.py
-```
 
----
+🛠️ Requisitos
 
-## 📌 Scripts incluidos
+Python 3.x
 
-- **Renombrador** → Renombra múltiples archivos aplicando un patrón.  
-- **Elimina duplicados** → Encuentra y elimina archivos repetidos.  
-- **Crea CSV** → Genera un archivo CSV a partir de datos definidos.  
-- **Genera TOC** → Crea automáticamente una tabla de contenidos.  
-- **JSON to CSV** → Convierte un archivo JSON a formato CSV.  
+Librerías estándar incluidas (no necesitas instalar nada adicional).
 
----
+⭐ Contribución y feedback
 
-## 🏷️ Requisitos
-
-- Python 3.10 o superior  
-- Librerías estándar incluidas (no necesitas instalar nada extra en la mayoría de scripts)  
-
----
-
-## 🖼️ Ejemplo de uso (Renombrador)
-
-📂 Antes (carpeta con archivos):
-
-```
-archivo1.txt
-archivo2.txt
-```
-
-▶️ Ejecutar:
-
-```bash
-python renombrador.py
-```
-
-📂 Después:
-
-```
-documento_1.txt
-documento_2.txt
-```
-
----
-
-## ⭐ Contribución y feedback
-
-Si tienes sugerencias o mejoras, puedes abrir un **issue** o enviar un **pull request**.  
+Si tienes sugerencias o mejoras, puedes abrir un issue o enviar un pull request.
 Todo comentario es bienvenido 🙌
 
----
-
-## 📜 Licencia
+📜 Licencia
 
 Este proyecto es de uso libre para fines personales y educativos.
