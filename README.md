@@ -1,70 +1,82 @@
-# 🐍 Python Automation Scripts
 
-Colección de scripts útiles para automatizar tareas cotidianas en tu computadora.  
-Cada script está organizado en su propia carpeta dentro de `scripts/`, con el código listo para ejecutar.
+# Python Automation Scripts
 
----
+Colección de scripts útiles para tareas cotidianas de automatización con Python.
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
+
 python-automation-scripts/
 │
 ├── scripts/
-│ ├── renombrador/
-│ │ └── renombrador.py
-│ ├── elimina_duplicados/
-│ │ └── elimina_duplicados.py
-│ ├── analiza_genera_csv/
-│ │ └── analiza_genera_csv.py
-│ ├── copia_incremental/
-│ │ └── copia_incremental.py
-│ ├── elimina_parrafos_iguales/
-│ │ └── elimina_parrafos_iguales.py
-│ └── genera_markdown/
-│ └── genera_markdown.py
+│   ├── renombrador/
+│   │   └── renombrador.py
+│   ├── elimina_duplicados/
+│   │   └── elimina_duplicados.py
+│   ├── analiza_genera_csv/
+│   │   └── analiza_genera_csv.py
+│   ├── copia_incremental/
+│   │   └── copia_incremental.py
+│   ├── elimina_parrafos_iguales/
+│   │   └── elimina_parrafos_iguales.py
+│   └── genera_markdown/
+│       └── genera_markdown.py
 │
 └── README.md
 
+## Scripts disponibles
+
+## 📜 Descripción de scripts
+
+- **renombrador.py** → Renombra archivos en lote según un patrón definido.
+- **elimina_duplicados.py** → Detecta y elimina archivos duplicados basados en tamaño y hash.
+- **analiza_genera_csv.py** → Analiza datos y genera reportes en formato CSV.
+- **copia_incremental.py** → Realiza copias de seguridad incrementales de directorios.
+- **elimina_parrafos_iguales.py** → Procesa documentos de texto eliminando párrafos repetidos.
+- **genera_markdown.py** → Genera índices automáticos y estructura de títulos en archivos Markdown.
 
 ---
 
-## 🚀 Scripts incluidos
+## ⚙️ Requisitos
 
-- **renombrador** → Renombra múltiples archivos automáticamente en una carpeta.  
-- **elimina_duplicados** → Elimina archivos duplicados basándose en tamaño y hash.  
-- **analiza_genera_csv** → Procesa datos y genera archivos CSV.  
-- **copia_incremental** → Realiza copias de seguridad incrementales de archivos.  
-- **elimina_parrafos_iguales** → Detecta y elimina párrafos duplicados en un texto.  
-- **genera_markdown** → Genera archivos Markdown con índice de contenidos automático.  
+- Python **3.8+**
+- Bibliotecas estándar de Python (no requiere dependencias externas).
 
 ---
 
-## ▶️ Cómo clonar y ejecutar
+## 🚀 Instalación
 
-Clona este repositorio en tu equipo:
+Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/python-automation-scripts.git
-cd python-automation-scripts/scripts
+git clone https://github.com/usuario/python-automation-scripts.git
+cd python-automation-scripts
 
-#Para ejecutar un script específico:
+▶️ Uso
 
-Copiar código
-cd nombre_del_script
-python nombre_del_script.py
-Ejemplo, para ejecutar el script  renombrador:
+Cada script puede ejecutarse de forma independiente desde la terminal:
 
-Copiar código
-cd renombrador
-python renombrador.py
+Ejemplo: ejecutar el renombrador
+python scripts/renombrador/renombrador.py
 
-#🛠️ Requisitos
-Python 3.x
+Ejemplo: ejecutar el eliminador de duplicados
+python scripts/elimina_duplicados/elimina_duplicados.py
 
-Librerías estándar incluidas (no necesitas instalar nada adicional).
+Ejemplo: ejecutar el generador de CSV
+python scripts/analiza_genera_csv/analiza_genera_csv.py
 
-#⭐ Contribución y feedback
-Si tienes sugerencias o mejoras, puedes abrir un issue o enviar un pull request.
-Todo comentario es bienvenido 🙌
 
-#📜 Licencia
-Este proyecto es de uso libre para fines personales y educativos.
+Y así para cada uno de los demás scripts, cambiando la ruta al archivo correspondiente.
+
+🏗️ Contribución
+
+Si deseas aportar mejoras:
+
+Haz un fork del repositorio.
+
+Crea una nueva rama para tu mejora o corrección.
+
+Envía un Pull Request con una descripción clara de los cambios.
+
+📄 Licencia
+
+Este proyecto se distribuye bajo la licencia MIT, lo que significa que eres libre de usarlo, modificarlo y distribuirlo, siempre citando la fuente original.
