@@ -67,15 +67,6 @@ python scripts/analiza_genera_csv/analiza_genera_csv.py
 
 Y así para cada uno de los demás scripts, cambiando la ruta al archivo correspondiente.
 
-🏗️ Contribución
-
-Si deseas aportar mejoras:
-
-Haz un fork del repositorio.
-
-Crea una nueva rama para tu mejora o corrección.
-
-Envía un Pull Request con una descripción clara de los cambios.
 
 📄 Licencia
 
