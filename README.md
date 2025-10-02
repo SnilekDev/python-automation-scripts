@@ -21,7 +21,7 @@ python-automation-scripts/
 │   └── genera_markdown/
 │       └── genera_markdown.py
 │
-└── README.md
+└── README.md ```
 
 ## Scripts disponibles
 
