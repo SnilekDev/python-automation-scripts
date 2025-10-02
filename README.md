@@ -23,13 +23,16 @@ python-automation-scripts/
 └── README.md
 
 ## 📜 Scripts disponibles
-## Script	Descripción
-**renombrador.py**	Renombra archivos en lote según un patrón definido.
-**elimina_duplicados.py**	Detecta y elimina archivos duplicados basados en tamaño y hash.
-**analiza_genera_csv.py**	Analiza datos y genera reportes en formato CSV.
-**copia_incremental.py**	Realiza copias de seguridad incrementales de directorios.
-**elimina_parrafos_iguales.py**	Procesa documentos de texto eliminando párrafos repetidos.
-**genera_markdown.py**	Genera índices automáticos y estructura de títulos en archivos Markdown.
+## 📜 Scripts disponibles
+
+| Script                    |  Descripción                                                         |
+|---------------------------|---------------------------------------------------------------------|
+| `renombrador.py`           | Renombra archivos en lote según un patrón definido.                 |
+| `elimina_duplicados.py`    | Detecta y elimina archivos duplicados basados en tamaño y hash.     |
+| `analiza_genera_csv.py`    | Analiza datos y genera reportes en formato CSV.                     |
+| `copia_incremental.py`     | Realiza copias de seguridad incrementales de directorios.           |
+| `elimina_parrafos_iguales.py` | Procesa documentos de texto eliminando párrafos repetidos.       |
+| `genera_markdown.py`       | Genera índices automáticos y estructura de títulos en archivos Markdown. |
 
 ## ⚙️ Requisitos
 
