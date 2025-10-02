@@ -1,9 +1,13 @@
-🐍 Python Automation Scripts
+# 🐍 Python Automation Scripts
 
-Colección de scripts útiles para automatizar tareas cotidianas en tu computadora.
-Cada script está organizado en su propia carpeta dentro de scripts/, con el código listo para ejecutar.
+Colección de scripts útiles para automatizar tareas cotidianas en tu computadora.  
+Cada script está organizado en su propia carpeta dentro de `scripts/`, con el código listo para ejecutar.
 
-📂 Estructura del repositorio
+---
+
+## 📂 Estructura del repositorio
+
+```bash
 python-automation-scripts/
 │
 ├── scripts/
@@ -21,9 +25,7 @@ python-automation-scripts/
 │       └── genera_markdown.py
 │
 └── README.md
-
 🚀 Scripts incluidos
-
 renombrador → Renombra múltiples archivos automáticamente en una carpeta.
 
 elimina_duplicados → Elimina archivos duplicados basándose en tamaño y hash.
@@ -37,35 +39,32 @@ elimina_parrafos_iguales → Detecta y elimina párrafos duplicados en un texto.
 genera_markdown → Genera archivos Markdown con índice de contenidos automático.
 
 ▶️ Cómo clonar y ejecutar
-
 Clona este repositorio en tu equipo:
 
+bash
+Copiar código
 git clone https://github.com/tu-usuario/python-automation-scripts.git
 cd python-automation-scripts/scripts
-
-
 Para ejecutar un script específico:
 
+bash
+Copiar código
 cd nombre_del_script
 python nombre_del_script.py
-
-
 Ejemplo, para ejecutar el script de renombrado:
 
+bash
+Copiar código
 cd renombrador
 python renombrador.py
-
 🛠️ Requisitos
-
 Python 3.x
 
 Librerías estándar incluidas (no necesitas instalar nada adicional).
 
 ⭐ Contribución y feedback
-
 Si tienes sugerencias o mejoras, puedes abrir un issue o enviar un pull request.
 Todo comentario es bienvenido 🙌
 
 📜 Licencia
-
 Este proyecto es de uso libre para fines personales y educativos.
