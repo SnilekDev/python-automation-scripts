@@ -4,7 +4,7 @@
 Colección de scripts útiles para tareas cotidianas de automatización con Python.
 
 ## Estructura del repositorio
-
+```plaintext
 python-automation-scripts/
 │
 ├── scripts/
