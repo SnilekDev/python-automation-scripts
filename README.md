@@ -3,7 +3,7 @@
 Colección de scripts útiles para tareas cotidianas de automatización con Python.
 
 ## 📂 Estructura del repositorio
-
+```plaintext
 python-automation-scripts/
 │
 ├── scripts/
@@ -21,8 +21,7 @@ python-automation-scripts/
 │       └── genera_markdown.py
 │
 └── README.md
-
-## 📜 Scripts disponibles
+```
 ## 📜 Scripts disponibles
 
 | Script                    |  Descripción                                                         |
