@@ -21,7 +21,8 @@ python-automation-scripts/
 │   └── genera_markdown/
 │       └── genera_markdown.py
 │
-└── README.md ```
+└── README.md 
+```
 
 ## Scripts disponibles
 
@@ -50,8 +51,9 @@ Clona este repositorio en tu máquina local:
 ```bash
 git clone https://github.com/usuario/python-automation-scripts.git
 cd python-automation-scripts
+```
 
-▶️ Uso
+## ▶️ Uso
 
 Cada script puede ejecutarse de forma independiente desde la terminal:
 
@@ -68,6 +70,6 @@ python scripts/analiza_genera_csv/analiza_genera_csv.py
 Y así para cada uno de los demás scripts, cambiando la ruta al archivo correspondiente.
 
 
-📄 Licencia
+## 📄 Licencia
 
 Este proyecto se distribuye bajo la licencia MIT, lo que significa que eres libre de usarlo, modificarlo y distribuirlo, siempre citando la fuente original.
