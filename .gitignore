@@ -1,0 +1,13 @@
+venv/
+.env/
+
+
+__pycache__/
+*.pyc
+
+
+demo/output_example/
+*.log
+
+
+.vscode/
