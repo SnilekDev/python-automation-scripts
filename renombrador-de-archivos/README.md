@@ -14,3 +14,11 @@ No requiere librerías externas
 
 ### Entrega
 Incluye script + README + demo + soporte 3 días.
+
+### Ejemplo de ejecución
+
+#### 🔹 Modo seco (`--seco`)
+![Ejecución en modo seco](demo/capturas/ejecucion_dryrun.jpg)
+
+#### 🔹 Modo real
+![Ejecución real](demo/capturas/ejecucion_real.jpg)

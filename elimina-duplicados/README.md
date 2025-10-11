@@ -19,3 +19,17 @@ No requiere librerías externas
 
 ### Entrega
 Incluye script + README + demo + soporte 3 días.
+
+## Evidencia visual (demo)
+
+**Archivos de prueba**  
+En `/demo/input_example` se incluyen archivos duplicados y únicos para verificar el funcionamiento del script.
+
+**Ejecuciones**
+
+- `captura1_SECO.jpg` → modo simulación (`--seco`)
+- `captura2_BORRAR.jpg` → modo real (`--borrar`)
+
+**Resultados**
+
+Los archivos duplicados se eliminaron correctamente, dejando solo una copia en `/demo/output_example/`.

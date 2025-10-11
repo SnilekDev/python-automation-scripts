@@ -19,3 +19,17 @@ No requiere librerías externas
 
 ### Entrega
 Incluye script + README + demo + soporte 3 días.
+
+## Evidencia visual (demo)
+
+**Archivo de prueba**  
+`/demo/input_example/texto_prueba.txt` contiene párrafos duplicados y únicos.
+
+**Ejecuciones**
+
+- `captura_parrafo_eliminado.jpg` → simulación, muestra qué párrafos serían eliminados  `/demo/`
+- `captura_resultado.jpg` → modo real, archivo limpio generado en `/demo/`
+
+**Resultados**
+
+El script elimina correctamente párrafos duplicados o muy similares según el umbral especificado, conservando solo los únicos.
